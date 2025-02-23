@@ -26,14 +26,13 @@ Write a function void Affichage(int *tab, int taille) that displays the contents
 
 Write a function int commun(int *t1, int n1, int *t2, int n2) that determines the number of common elements between the two arrays.
 
-**Exercise 4**
 Write a function float rassemblance(int *t1, int n1, int *t2, int n2) that returns the similarity coefficient:
 n_commun / max(n1, n2).
 
 By modifying the body of the commun() function, write a function int* rassemblenceTab(int *t1, int n1, int *t2, int n2) that returns an array containing the common elements between t1 and t2.
 
 Test all these functions in the main program main().
-
+**EXERCISE 4**
 Write a function int Trier(int *tab, int taille) that returns 1 if the array is sorted in ascending order, 2 if it is sorted in descending order, and 0 otherwise (if it is not sorted).
 
 Write a function int* fusionCroissant(int *t1, int n1, int *t2, int n2) that merges two dynamic arrays passed as parameters. First, you must check if both arrays are sorted in ascending order, and then these two arrays must be merged into a new array to be returned.
